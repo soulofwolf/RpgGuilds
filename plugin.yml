@@ -1,0 +1,32 @@
+name: RpgGuilds
+main: com.vartala.soulofw0lf.rpgguilds.RpgGuilds
+version: 1.3
+depend: [Vault]
+commands:
+    guild:
+        description: Base guild command
+        usage: /<guild> [create, invite, leave, join, gmotd, kick, disband, tag]
+    g:
+        description: Guild chat
+        usage: /<g> [guild chat message]
+    gbank:
+        description: guild bank command
+        usage: to be determined
+    grank:
+        description: guild rank
+        usage: /<grank> [edit, create, delete, list, perms, set, title]
+    o:
+        description: Guild chat
+        usage: /<o> [officer chat message]
+    gtp:
+        description: Guild teleport
+        usage: /<gtp> {player name}
+    guilds:
+        description: Guild lists
+        usage: /<guilds>
+    lookup:
+        description: look up player stats
+        usage: /<lookup> (player name)
+    hq:
+        description: set or tp to your hq
+        usage: /<hq> [set, tp]
